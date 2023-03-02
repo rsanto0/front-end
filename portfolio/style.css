@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    /*reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    /*para gerantir que os elementos filho não fiquem fora do body*/
+    color: white;
+    background: #000000;
+}
+
+.container {
+    margin: 10% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_left {
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text1 {
+   
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text2 {
+  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.textColor-acqua {
+    color: #22D4FD;
+}
+
+.botoesDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt_portfolio{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+}
+img{
+    width: 500px;
+}
